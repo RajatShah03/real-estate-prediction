@@ -27,8 +27,17 @@
    - Finally saving the cleaned up data as a csv for further processing as _*clean_data.csv*_
 
 2. Feature Engineering
+
    - Used pandas to parse the cleaned csv dataset.
    - Creating a new more relevant feature called price_per_sqft.
    - Analysis of location column.
    - Converting locations with less than or equal to 10 houses as 'other'.
    - Finally saving the engineered data as a csv for further processing as _*engineered_data.csv*_
+
+3. Data Processing
+   - Used pandas to parse the engineered csv dataset.
+   - Analysing different outliers and anamolies based on certain features in dataset.
+   - Making assumptions based on domain knowledge to clean outliers.
+   - Visualizing some of the features to detect outliers.
+   - Removing the outliers or anamolies to make data much more clean for generalized learning.
+   - Finally saving the processed data as a csv for further processing as _*processed_data.csv*_
