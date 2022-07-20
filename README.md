@@ -65,3 +65,14 @@
    - It exposes two routes
       1. **GET - /locations**: Returns all the locations available based on the dataset.
       2. **POST - /predict**: Returns the predicted price based on the features provided in the request.
+
+### Client
+
+   - A **React** application built using **Reactstrap** that lets user choose different features like:
+      1. Area in sq ft
+      2. Number of bedrooms (BHK) (restricted to 5)
+      3. Number of bathrooms (restricted to 5)
+      4. Number of balcony (restricted to 3)
+      5. Location of Property (all locations available in cleaned dataset)
+   
+   - User can fill the details and click on Estimate CTA to get an estimated price.
