@@ -53,4 +53,15 @@
    - Finally trained the most performant __LinearRegression__ model with __normailzer__ set to __**True**__.
    - Used **pickle** to export model as __**bangalore_housing_price_model.pickle**__.
    - Used **json** to export data columns as __**columns.json**__.
+
+
+## Application
+
+
+### Server
    
+   - A **FastApi** based server that provides **REST** APIs.
+   - It uses the artifacts created from the ML pipeline containing the Model as pickle and the Feature columns as json.
+   - It exposes two routes
+      1. **GET - /locations**: Returns all the locations available based on the dataset.
+      2. **POST - /predict**: Returns the predicted price based on the features provided in the request.
